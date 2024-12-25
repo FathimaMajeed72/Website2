@@ -1,0 +1,202 @@
+
+body{
+    margin-top: -16px;
+    margin-left: 0;
+    margin-right: 0;
+    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Ubuntu, Helvetica Neue, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+}
+.container{
+    width: 100%;
+    height: 2400px;
+    background-color: white;
+}
+.header_top{
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 10px;
+}
+#rytarrw{
+    width: 15px;
+    height: 11px;
+}
+.header_top p{
+    font-size: 14px;
+    margin-right: 7px;
+}
+.header_bottom{
+    background-color: black;
+    color:white;
+    width: 100%;
+    height: 90px;
+    margin-top: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+    top:0;
+}
+.header_bottom a{
+    text-decoration: none;
+    color: white;
+  
+}
+#logo{
+    width: 120px;
+    height: 26px;
+    margin-left: 72px;
+}
+nav{
+    width: 371px;
+    height: 46px;    
+    
+
+}
+.header_menu{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-left: -630px;
+}
+#home_menu{
+    text-decoration: underline;
+}
+.header_icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 70px;
+}
+#account{
+    width: 22px; 
+    height: 22px;
+    margin-right: 15px; 
+}
+#cart{
+    width: 50px;
+    height: 50px;
+}
+.book_list{
+    width: 95%;
+    height: 1123px;
+   display: flex;
+   align-items: center;
+   justify-content: space-evenly;
+   flex-wrap: wrap;
+   
+   margin-top: 20px;
+   margin-left: 38px;
+   margin-right: 0px;
+
+}
+.book_img{
+    width: 362px;
+    height: 362px;
+  
+   
+}
+.images{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.about_us{
+    width: 1320px;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 55px;
+    margin-top: 30px;
+}
+.leftdiv{
+    width: 393px;
+    height: 527px;
+    
+}
+#founder{
+    width: 100%;
+    height: 100%;
+}
+.rightdiv{
+    width: 815px;
+    height: 527px;
+    position: relative;
+    margin-top: 92px;
+    margin-left: 80px;
+    
+}
+.rightdiv h2{
+    
+    font-weight: 400;
+    margin-bottom: 25px;
+}
+.rightdiv p{
+    font-size: 21px;
+    color: rgba(18, 18, 18,0.8);
+    font-weight: 100;
+    margin-bottom: 37px;
+}
+.rightdiv button{
+    background-color: black;
+    color: white;
+    border: none;
+    width: 142px;
+    height: 51px;
+    font-size: 16px;
+}
+.footer_top{
+    width: 100%;
+    height: 330px;
+    background-color: black;
+    color: white;
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    flex-direction: column;
+    
+}
+.footer_top h2{
+    margin-top: -10px;
+    font-weight: 400;
+    font-size: large;
+}
+.footer_top a{
+    color: white;
+    line-height: 3;
+    font-size: 18px;
+}
+.footer_top img{
+    width: 20px;
+    height: 20px;
+    margin-top: 30px;
+}
+.footer_bottom{
+    width: 100%;
+    margin-top: 1px;
+    height: 125px;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    padding-left: 75px;
+    font-size: 13px;
+}
+.footer_bottom a{
+    text-decoration:none;
+    color: white;
+}
+.footer_bottom ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.list{
+    width: 100px;
+}
+.list5{
+    width: 100px;
+}
